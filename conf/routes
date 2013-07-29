@@ -1,0 +1,4 @@
+
+GET     /                           controllers.Application.index
+GET     /split/:str                           controllers.Application.split(str)
+GET     /*file               controllers.Assets.at(path="/public", file)
